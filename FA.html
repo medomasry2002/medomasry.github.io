@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assessment</title>
+    <link rel="stylesheet" href="Fa.css" type="text/css">
+    
+    
+</head>
+<body>
+    
+    <section class="section1"><br>
+        <picture>
+            <img src="ahmadpic.jpg" width ="300" height ="300" alt="Ahmad picture">
+        </picture><br>
+        <h2>Ahmad Seyam</h2><br>
+        <p>Future Position: Software Developer, Computer Engineer</p><br><br>
+        <a href="Ahmad_Resume.pdf"  id="resumebutton">Resume</a>
+        <a href="#section1a" id="contactmebutton">Contact Me</a><br><br><br>
+
+    </section>
+
+    <div class="section2">
+
+        <article class="section2a">
+
+            <h1 class="h1"> About Me and Academic Honesty</h1><br>
+        
+            <p style="word-wrap:break-word">  
+                My name is Ahmad Seyam and I'm curently a student in CPA at Seneca College. I'm taking this course as it allows me to be creative with my learning skills using Javascript and HTML to create websites and games. 
+                I enjoy learning courses such as Web222, OOP244, DBS311, SYD366 etc. I was born in Toronto, Canada. 
+                I like spending time with friends and family. Some of my hobbies are to go outside, play some sports, read a book, and watch movies. 
+                I like traveling to different countries by exploring and learning about the history of different countries. In the future, I would like to visit Dubai, London, Hawaii as I enjoy traveling and seeing new places and meeting new people. 
+                I enjoy watching movies such as action movies and comedy movies.
+            </p><br>
+
+            <p >
+                I declare that my assessment is wholly my own work in accordance with Seneca Academic
+                Policy. No part of this assessment has been copied manually or electronically from any other
+                source (including web sites) except for the information supplied by the WEB222 instructors and /
+                or made available in this assessment for my use. I also declare that no part of this assignment
+                has been distributed to other students. 
+            </p><br>
+            <p><b> Date: </b>April 9, 2022 </p>
+
+        </article>
+
+        <section class="section2b">
+            <h1 class="h2"> Basic Information</h1><br><br>
+    
+            <p> 
+                <b>AGE:</b> 19 <br><br>
+                <b>EMAIL:</b> Ahmadseyam30@gmail.com <br><br>
+                <b>LANGUAGE:</b> English, Arabic <br><br>
+                <b>CLASS SECTION:</b> NEE <br><br>
+                <b>STUDENT ID:</b> 163722192 <br><br>
+                <b>INSTRUCTOR:</b> Dr.Navreet Lehal <br><br>
+            </p>
+
+        </section>
+
+    </div>
+
+    <section class="section3">
+
+        
+        <h2 class="h3"> Educaton</h1>
+        <p class="section3a"> <br>
+            2021-2024(expected)
+            Advanced Diploma
+        </p>
+          
+        
+
+        <p class="section3b"> <br>
+            Advanced Diploma
+            SENECA COLLEGE 
+            Under the supervision of Dr.Navreet Lehal
+        
+        </p>
+    </section>
+
+    <section class="formsection" id="section1a">
+        <form id="my-form" action="https://formspree.io/f/xknyqggy" method="post" onsubmit="sendEmail()" reset();>
+            <h3> Contact Me</h3>
+            <input type="text" id="Name" placeholder="Name" required>
+            <input type="text" id="Email" placeholder="Email Address" required>
+            <input type="text" id="Address" placeholder="Address" required>
+            <input type="text" id="City" placeholder="City" list="cities" required>
+            <datalist id="cities"> 
+                <option value="Toronto"></option>
+                <option value="Ottawa"></option>
+                <option value="Montreal"></option>
+                <option value="Vancouver"></option>
+                <option value="Calgary"></option>
+
+            </datalist>
+
+            <input type="text" id="Postal Code" placeholder="Postal Code" pattern="^(?!.*[DFIOQU])[A-VXY][0-9][A-Z] ?[0-9][A-Z][0-9]$" required>
+            <input type="text" id="Phone" placeholder="Phone Number" required>
+            
+            <div>
+                <p>Please specify what this is about:</p>
+                <input type="radio" id="Question" name="fav_language" value="Question" onclick="text(0)">
+                <label for="Question">Question</label><br>
+                <input type="radio" id="Comment" name="fav_language" value="Comment" onclick="text(0)">
+                <label for="Comment">Comment</label><br>
+                <input type="radio" id="Hiring" name="fav_language" value="Hiring" onclick="text(1)">
+                <label for="Javascript">Hiring</label>
+            </div>
+
+            <div>
+                <input type="number" id="HourlyRate" placeholder="Hourly Rate" hidden>
+            </div>
+
+            <textarea id="message" rows="5" placeholder="Enter Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="Final.js"></script>
+
+</body>
+</html>

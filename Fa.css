@@ -1,0 +1,167 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body { 
+	max-width: 1024px; 
+	margin: 0 auto ; 
+	float: none ; 
+    max-width: 95%;
+}
+.section1{
+    background: #48466d;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+a{
+    
+    background: #3d84a8;
+    color: #BDBDBD; 
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: auto;
+    border-radius: 30 px;
+    margin-bottom: 20px;
+    padding: 2vw 4vw;
+    
+}
+
+.section2a, .section2b{
+    
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+.section2b{
+    margin-left:50%; 
+    height:100px;
+}
+
+
+.h1{
+    background: #abedd8
+}
+
+
+.h2{
+    background: #abedd8;
+}
+
+
+.section3a{
+    width:50%; 
+    height:50px; 
+    float: left; 
+    text-align: center; 
+    background-color:  #48466d; 
+    color: white;
+}
+
+.section2a{
+
+    width:50%; 
+    height:100px; 
+    float: left;
+}
+
+
+.section2{
+
+    width: 100%;
+    height: 400px;
+    background: #3d84a8;
+
+}
+
+.h3{
+    text-align:center; 
+    background: #abedd8;
+}
+
+.section3b{
+    margin-left:50%; 
+    height:50px; 
+    text-align: center; 
+    background: #46cdcf;
+}
+
+
+form{
+    background: #BDBDBD; 
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 250px;
+    border-radius:10px;
+}
+
+form h3{
+    color: #757575; 
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #fffbfb; 
+    font-size: 12px;
+}
+
+form button{
+    padding: 15px;
+    background: #3d84a8;
+    color: #fffbfb;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 540px) {
+
+    .section2{
+        
+        height:700px;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    
+    
+    .section3b{
+
+      
+        height:100px;
+    }
+
+    .section3a {
+        height:100px;
+    }
+}
+
+
+
+
+
